@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WuerfelApp</string>
+
+    <string name="activity_main_title">Würfel App</string>
+    <string name="activity_main_rolldice">Würfeln!</string>
+    <string name="activity_main_finish">Beenden!</string>
+    <string name="activity_main_shownumber">warte!</string>
+</resources>

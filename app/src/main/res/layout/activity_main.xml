@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nikbin.wuerfelapp.WuerfelActivity">
+
+    <TextView
+        android:id="@+id/activity_main_textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/activity_main_title"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="48sp"/>
+
+    <TextView
+        android:id="@+id/activity_main_textview_rolldice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        android:text="@string/activity_main_rolldice"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="35sp"/>
+
+
+    <ImageView
+        android:id="@+id/activity_main_imageview_dice"
+        android:src="@drawable/blue_dice"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:minHeight="60dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_textview_shownumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:clickable="true"
+        android:text="@string/activity_main_shownumber"
+        android:textSize="35sp"
+        android:textColor="@color/colorGold"/>
+
+    <Button
+        android:id="@+id/activity_main_button_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:padding="22dp"
+        android:text="@string/activity_main_finish"
+        android:textColor="@android:color/holo_purple"/>
+
+
+</LinearLayout>
