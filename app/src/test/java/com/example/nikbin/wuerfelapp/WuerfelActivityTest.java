@@ -13,7 +13,7 @@ import static org.junit.Assert.assertThat;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  *
- * @author Leïli Nikbin <nikbin@itemis.de>
+ * @author lei vs <matleivs@gmail.com>
  */
 
 public class WuerfelActivityTest {
